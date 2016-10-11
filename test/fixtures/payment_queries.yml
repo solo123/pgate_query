@@ -1,0 +1,31 @@
+qry_1_no:
+  client_id: 1
+  org_id: pooul
+  query_type: Q001
+  order_time: 20160901
+  order_id: TST000
+  client_payment_id: 4
+
+qry_1:
+  client_id: 1
+  org_id: pooul
+  query_type: Q001
+  order_time: 20160901
+  order_id: TST010
+  client_payment_id: 5
+
+qry_7:
+  client_id: 1
+  org_id: pooul
+  query_type: Q001
+  order_time: 20160901
+  order_id: TST007
+  client_payment_id: 2
+
+qry_8:
+  client_id: 1
+  org_id: pooul
+  query_type: Q001
+  order_time: 20160901
+  order_id: TST008
+  client_payment_id: 3

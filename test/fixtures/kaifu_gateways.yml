@@ -1,0 +1,18 @@
+one:
+  client_payment_id: 5
+  send_time: '20160923185404'
+  send_seq_id: P1000088
+  trans_type: B001
+  organization_id: puerhanda
+  pay_pass: '1'
+  trans_amt: '1000'
+  fee: '33'
+  card_no: '6225886556455713'
+  name: 梁益华
+  id_num: '450303197005030016'
+  body: 普尔测试 - 测试商品
+  notify_url: http://112.74.184.236:8010/recv_notify
+  callback_url: http://a.pooulcloud.cn/test_pages/pay
+  resp_code: 00
+  mac: '45303931'
+  status: 1

@@ -1,0 +1,105 @@
+status_0:
+  id: 1
+  org_id: pooul
+  trans_type: P001
+  order_time: 20160901120101
+  order_id: TST001
+  pay_pass: 1
+  amount: 1000
+  fee: 0
+  card_no: 1234234534564567
+  card_holder_name: zhangsan
+  person_id_num: 450101197001010011
+  order_title: test001
+  notify_url: http://localhost:3000/abc
+  callback_url: http://localhost:3000/def
+  mac: 123123
+  status: 0
+  resp_code: AA
+  resp_desc: aaaa
+
+status_1_no:
+  id: 4
+  org_id: pooul
+  trans_type: P001
+  order_time: 20160901120101
+  order_id: TST000
+  pay_pass: 1
+  amount: 1000
+  fee: 0
+  card_no: 1234234534564567
+  card_holder_name: zhangsan
+  person_id_num: 450101197001010011
+  order_title: test001
+  notify_url: http://localhost:3000/abc
+  callback_url: http://localhost:3000/def
+  mac: 123123
+  status: 1
+
+status_1:
+  id: 5
+  org_id: pooul
+  trans_type: P001
+  order_time: 20160901120101
+  order_id: TST010
+  pay_pass: 1
+  amount: 1000
+  fee: 33
+  card_no: 1234234534564567
+  card_holder_name: zhangsan
+  person_id_num: 450101197001010011
+  order_title: test001
+  notify_url: http://localhost:3000/abc
+  callback_url: http://localhost:3000/def
+  mac: 123123
+  status: 1
+
+
+status_7:
+  id: 2
+  org_id: pooul
+  trans_type: P001
+  order_time: 20160901120101
+  order_id: TST007
+  pay_pass: 1
+  amount: 1000
+  fee: 0
+  card_no: 1234234534564567
+  card_holder_name: zhangsan
+  person_id_num: 450101197001010011
+  order_title: test001
+  notify_url: http://localhost:3000/abc
+  callback_url: http://localhost:3000/def
+  mac: 123123
+  status: 7
+  resp_code: 77
+  resp_desc: 7777
+  pay_code: 777
+  pay_desc: 777777
+  t0_code: 7
+  t0_desc: 77
+
+
+status_8:
+  id: 3
+  org_id: pooul
+  trans_type: P001
+  order_time: 20160901120101
+  order_id: TST008
+  pay_pass: 1
+  amount: 1000
+  fee: 0
+  card_no: 1234234534564567
+  card_holder_name: zhangsan
+  person_id_num: 450101197001010011
+  order_title: test001
+  notify_url: http://localhost:3000/abc
+  callback_url: http://localhost:3000/def
+  mac: 123123
+  status: 8
+  resp_code: 00
+  resp_desc: ok
+  pay_code: 00
+  pay_desc: pay ok
+  t0_code: 00
+  t0_desc: pay t0
