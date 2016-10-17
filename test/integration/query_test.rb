@@ -38,13 +38,4 @@ class QueryTest < ActionDispatch::IntegrationTest
 =end
   end
 
-  test "直接返回client_payment中status=7的支付结果" do
-    js = Biz::PooulApi.query(payment_queries(:qry_7))
-    assert_equal '00', js[:resp_code].to_s
-    assert_equal '777', js[:pay_code].to_s
-    assert_equal '7',  js[:t0_code].to_s
-  end
-  test "需要调用上游查询" do
-    
-  end
 end
